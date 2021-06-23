@@ -288,7 +288,9 @@
 
 .site-main .subscribe-us-area .subscribe{
     background: url(../img/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
+    height: auto;
+    width: auto;
+    padding: 4rem 0;
     margin: 3rem auto;
 }
 
@@ -337,7 +339,7 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 2rem;
-    color: #333131b8;
+    color: #201f1fb3;
 }
 
 footer.footer-area .social a:hover > i{
