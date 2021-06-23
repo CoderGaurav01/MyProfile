@@ -288,9 +288,8 @@
 
 .site-main .subscribe-us-area .subscribe{
     background: url(../img/subscribe-bg.png) no-repeat;
-    height: auto;
-    width: auto;
-    padding: 4rem 0;
+    background-size: cover;
+    padding: 10rem 0;
     margin: 3rem auto;
 }
 
