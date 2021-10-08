@@ -32,7 +32,11 @@
     <!--  Responsive css file  -->
     <link rel="stylesheet" href="./css/responsive.css">
     <script src="https://kit.fontawesome.com/8ffc2c8bda.js" crossorigin="anonymous"></script>
-
+    <style>
+        .services{
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -96,7 +100,7 @@
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <a href="#contact"><button type="button" class="btn button primary-button mr-4 text-uppercase">Contact me</button></a>
-                                <a href="uploads/resume.pdf" target="_blank"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
+                                <a href="uploads/resume1.pdf" target="_blank"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +138,7 @@
                                 I also have a good command over C++ and JAVA and enjoy competitive programming.
                             </p>
                         </div>
-                        <a href="uploads/resume.pdf" target="_blank"><button type="button" class="btn button primary-button text-uppercase">Download cv</button></a>
+                        <a href="uploads/resume1.pdf" target="_blank"><button type="button" class="btn button primary-button text-uppercase">Download cv</button></a>
                     </div>
                 </div>
             </div>
@@ -235,7 +239,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="container services-list">
+                <div class="container-fluid services-list">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
@@ -506,29 +510,29 @@
                     <form class="w-50" method="POST" action="mail.php">
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="email" id="txtemail" class="form-control" placeholder="Email" required>
+                                <input type="text" name="email" id="txtemail" class="form-control" placeholder="Email" required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <textarea id="message" name="message" placeholder="Message....." class="form-control" rows="5"></textarea>
+                                <textarea id="message" name="message" placeholder="Message....." class="form-control" rows="5" style="width: 100%;"></textarea>
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col">
-                                <div class="btn-submit">
+                                <center><div class="btn-submit">
                                     <button type="submit" class="btn btn-success">Send Mail</button>
-                                </div>
+                                </div></center>
                             </div>
                         </div>
                     </form>
