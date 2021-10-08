@@ -358,25 +358,25 @@ if($_GET["status"]=="ok"){?>
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                <a class="test-popup-link" href="./img/portfolio/portfolio.jpg">
+                                    <img src="./img/portfolio/portfolio.jpg" alt="portfolio-1" class="img-fluid">
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Portfolio Webite</h4>
+                                <h4 class="text-uppercase">Portfolio Webite <a href="https://github.com/CoderGaurav01/MyProfile"><i class="fab fa-github"></i></a>&nbsp;<a href="https://gauravchhapliyal.000webhostapp.com/"><i class="fa fa-eye"></i></a></h4>
                                 <span class="text-secondary">Latest, Project</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item web latest">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item web">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
-                                    <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
+                                <a class="test-popup-link" href="./img/portfolio/donate.jpg">
+                                    <img src="./img/portfolio/donate.jpg" alt="portfolio-2" class="img-fluid">
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Donation Website</h4>
+                                <h4 class="text-uppercase">Donation Website <a href="https://github.com/CoderGaurav01/Donation-website"><i class="fab fa-github"></i></a></h4>
                                 <span class="text-secondary">Web, Project</span>
                             </div>
                         </div>
@@ -384,12 +384,12 @@ if($_GET["status"]=="ok"){?>
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item web">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                    <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                                <a class="test-popup-link" href="./img/portfolio/ecommerce.jpg">
+                                    <img src="./img/portfolio/ecommerce.jpg" alt="portfolio-3" class="img-fluid">
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">E-Commerce Website</h4>
+                                <h4 class="text-uppercase">E-Commerce Website <a href="https://github.com/CoderGaurav01/E-commerce_Website"><i class="fab fa-github"></i></a></h4>
                                 <span class="text-secondary">Web, Project</span>
                             </div>
                         </div>
@@ -397,17 +397,17 @@ if($_GET["status"]=="ok"){?>
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item web">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                    <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                                <a class="test-popup-link" href="./img/portfolio/findbook.jpg">
+                                    <img src="./img/portfolio/findbook.jpg" alt="portfolio-3" class="img-fluid">
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">FindMyBook</h4>
+                                <h4 class="text-uppercase">FindMyBook <a href="https://github.com/CoderGaurav01/FindMyBook"><i class="fab fa-github"></i></a>&nbsp;<a href="https://findmyb00k.000webhostapp.com/"><i class="fa fa-eye"></i></a></h4>
                                 <span class="text-secondary">Web, Mini-Project</span>
                             </div>
                         </div>
                     </div>
-
+<!--
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                         <div class="our-project">
                             <div class="img">
@@ -417,7 +417,7 @@ if($_GET["status"]=="ok"){?>
                             </div>
                             <div class="title py-4">
                                 <h4 class="text-uppercase">OxyFind</h4>
-                                <span class="text-secondary">Web, Project</span>
+                                <span class="text-secondary">Upcoming, Project</span>
                             </div>
                         </div>
                     </div>
@@ -433,7 +433,7 @@ if($_GET["status"]=="ok"){?>
                                 <span class="text-secondary">Upcoming, Freelance</span>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
                 </div>
             </div>
