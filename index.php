@@ -320,7 +320,7 @@
                     <button type="button" class="active" id="btn1" data-filter="*">All</button>
                     <button type="button" data-filter=".web">Web Development</button>
                     <button type="button" data-filter=".latest">Latest</button>
-                    <button type="button" data-filter=".following">Following</button>
+                    <!--<button type="button" data-filter=".following">Following</button>-->
                     <button type="button" data-filter=".upcoming">Upcoming</button>
                 </div>
 
@@ -333,7 +333,7 @@
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Minimul Desing</h4>
+                                <h4 class="text-uppercase">Portfolio Webite</h4>
                                 <span class="text-secondary">Latest, Project</span>
                             </div>
                         </div>
@@ -399,8 +399,8 @@
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Muliple fown</h4>
-                                <span class="text-secondary">Upcoming, Project</span>
+                                <h4 class="text-uppercase">Emblazon Website</h4>
+                                <span class="text-secondary">Upcoming, Freelance</span>
                             </div>
                         </div>
                     </div>
