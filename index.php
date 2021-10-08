@@ -33,21 +33,39 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <script src="https://kit.fontawesome.com/8ffc2c8bda.js" crossorigin="anonymous"></script>
     <style>
-        .services{
+        .services {
             height: 100%;
         }
     </style>
 </head>
 
 <body>
-
-
+    <?php
+if(isset($_GET["status"])){
+if($_GET["status"]=="ok"){?>
+    <div class="alert alert-success alert-dismissible">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> Your Message is sent successfully
+    </div>
+    <?php
+}else if($_GET["status"]=="no"){?>
+    <div class="alert alert-danger alert-dismissible">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Failure</strong> System encountered an issue while sending message. Please Try again later
+    </div>
+    <?php
+}
+}
+?>
     <!--  ======================= Start Header Area ============================== -->
 
     <header class="header_area">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><!--<img src="./img/logo.png" alt="logo">--><h2 class="title-h2">Gaurav Chhapliyal</h2></a>
+                <a class="navbar-brand" href="index.php">
+                    <!--<img src="./img/logo.png" alt="logo">-->
+                    <h2 class="title-h2">Gaurav Chhapliyal</h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -99,8 +117,10 @@
                         <h4 class="title-text text-uppercase">Aspiring Software Developer</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <a href="#contact"><button type="button" class="btn button primary-button mr-4 text-uppercase">Contact me</button></a>
-                                <a href="uploads/resume1.pdf" target="_blank"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
+                                <a href="#contact"><button type="button"
+                                        class="btn button primary-button mr-4 text-uppercase">Contact me</button></a>
+                                <a href="uploads/resume1.pdf" target="_blank"><button type="button"
+                                        class="btn button secondary-button text-uppercase">Get cv</button></a>
                             </div>
                         </div>
                     </div>
@@ -130,15 +150,19 @@
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                I am currently a second year undergraduate computer science engineering student at MAIT, Delhi.
-                                 I am a learning enthusiast who is deeply passionate about programming and enjoys solving problems.
+                                I am currently a second year undergraduate computer science engineering student at MAIT,
+                                Delhi.
+                                I am a learning enthusiast who is deeply passionate about programming and enjoys solving
+                                problems.
                             </p>
                             <p class="para">
-                                I have experience as a full stack web developer and have good knowledge of HTML, CSS, BOOTSTRAP, jQuery, PHP and MySQl.
+                                I have experience as a full stack web developer and have good knowledge of HTML, CSS,
+                                BOOTSTRAP, jQuery, PHP and MySQl.
                                 I also have a good command over C++ and JAVA and enjoy competitive programming.
                             </p>
                         </div>
-                        <a href="uploads/resume1.pdf" target="_blank"><button type="button" class="btn button primary-button text-uppercase">Download cv</button></a>
+                        <a href="uploads/resume1.pdf" target="_blank"><button type="button"
+                                class="btn button primary-button text-uppercase">Download cv</button></a>
                     </div>
                 </div>
             </div>
@@ -234,8 +258,9 @@
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">Technical Skills</h1>
                         <p class="para">
-                            I am a learning enthusiast, and am always looking forward to keep learning something new.<br>
-                            My Skillset include.. 
+                            I am a learning enthusiast, and am always looking forward to keep learning something
+                            new.<br>
+                            My Skillset include..
                         </p>
                     </div>
                 </div>
@@ -259,15 +284,16 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/prog].png" style="background: none;" width="85px" height="63px" alt="Services-2">
+                                    <img src="./img/services/prog].png" style="background: none;" width="85px"
+                                        height="63px" alt="Services-2">
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto">Programming</h5>
                                     <p class="card-text text-secondary">
                                         Languages:<br>
-                                         -C<br>
-                                         -C++<br>
-                                         -JAVA
+                                        -C<br>
+                                        -C++<br>
+                                        -JAVA
                                     </p>
                                 </div>
                             </div>
@@ -275,7 +301,8 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/laravel.png"  style="background: none;" width="85px" height="63px" alt="Services-3">
+                                    <img src="./img/services/laravel.png" style="background: none;" width="85px"
+                                        height="63px" alt="Services-3">
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto">LARAVEL Development</h5>
@@ -289,12 +316,13 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4" style="padding: 0.9rem 0rem !important;">
-                                    <img src="./img/services/gcp.png"  style="background: none; " width="145px" height="80px" alt="Services-4">
+                                    <img src="./img/services/gcp.png" style="background: none; " width="145px"
+                                        height="80px" alt="Services-4">
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto" style="padding-top: 0;">GCP</h5>
                                     <p class="card-text text-secondary">
-                                        Completed Google Cloud training and have completed   
+                                        Completed Google Cloud training and have completed
                                         "Architecting with Google Compute Engine" specialisation on Coursera
                                     </p>
                                 </div>
@@ -312,8 +340,10 @@
         <section class="project-area" id="projects">
             <div class="container">
                 <div class="project-title pb-5">
-                   <center> <h1 class="text-uppercase title-h1">My Projects</h1>
-                    <h4 class="text-uppercase title-h4">Quality Work done by me</h4></center>
+                    <center>
+                        <h1 class="text-uppercase title-h1">My Projects</h1>
+                        <h4 class="text-uppercase title-h4">Quality Work done by me</h4>
+                    </center>
                 </div>
 
                 <div class="button-group">
@@ -377,7 +407,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
                         <div class="our-project">
                             <div class="img">
@@ -404,7 +434,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -510,29 +540,35 @@
                     <form class="w-50" method="POST" action="mail.php">
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required style="width: 100%;">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"
+                                    required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="email" id="txtemail" class="form-control" placeholder="Email" required style="width: 100%;">
+                                <input type="text" name="email" id="txtemail" class="form-control" placeholder="Email"
+                                    required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required style="width: 100%;">
+                                <input type="text" name="subject" id="subject" class="form-control"
+                                    placeholder="Subject" required style="width: 100%;">
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col input-textbox">
-                                <textarea id="message" name="message" placeholder="Message....." class="form-control" rows="5" style="width: 100%;"></textarea>
+                                <textarea id="message" name="message" placeholder="Message....." class="form-control"
+                                    rows="5" style="width: 100%;"></textarea>
                             </div>
                         </div>
                         <div class="row d-flex flex-row flex-wrap" style="margin: 1rem 0rem">
                             <div class="col">
-                                <center><div class="btn-submit">
-                                    <button type="submit" class="btn btn-success">Send Mail</button>
-                                </div></center>
+                                <center>
+                                    <div class="btn-submit">
+                                        <button type="submit" class="btn btn-success">Send Mail</button>
+                                    </div>
+                                </center>
                             </div>
                         </div>
                     </form>
@@ -550,9 +586,11 @@
             <div class="">
                 <div class="social text-center">
                     <h5 class="text-uppercase">Connect with me</h5>
-                    <a href="https://www.linkedin.com/in/gaurav-chhapliyal-0a6155177/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-chhapliyal-0a6155177/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/CoderGaurav01" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.youtube.com/channel/UCJS77npFgY-ZVUG7QbCRNPQ" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCJS77npFgY-ZVUG7QbCRNPQ" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
                     <a href="https://twitter.com/chhapliyal" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
                 <!--<div class="copyrights text-center">
