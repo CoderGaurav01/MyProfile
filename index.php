@@ -119,7 +119,7 @@ if($_GET["status"]=="ok"){?>
                             <div class="d-flex flex-row flex-wrap">
                                 <a href="#contact"><button type="button"
                                         class="btn button primary-button mr-4 text-uppercase">Contact me</button></a>
-                                <a href="uploads/resume1.pdf" target="_blank"><button type="button"
+                                <a href="uploads/Gaurav_Chhapliyal.pdf" target="_blank"><button type="button"
                                         class="btn button secondary-button text-uppercase">Get cv</button></a>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ if($_GET["status"]=="ok"){?>
                                 I also have a good command over C++ and JAVA and enjoy competitive programming.
                             </p>
                         </div>
-                        <a href="uploads/resume1.pdf" target="_blank"><button type="button"
+                        <a href="uploads/Gaurav_Chhapliyal.pdf" target="_blank"><button type="button"
                                 class="btn button primary-button text-uppercase">Download cv</button></a>
                     </div>
                 </div>
