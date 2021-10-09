@@ -150,7 +150,7 @@ if($_GET["status"]=="ok"){?>
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                I am currently a second year undergraduate computer science engineering student at MAIT,
+                                I am currently a third year undergraduate computer science engineering student at MAIT,
                                 Delhi.
                                 I am a learning enthusiast who is deeply passionate about programming and enjoys solving
                                 problems.
@@ -363,7 +363,7 @@ if($_GET["status"]=="ok"){?>
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Portfolio Webite <a href="https://github.com/CoderGaurav01/MyProfile"><i class="fab fa-github"></i></a>&nbsp;<a href="https://gauravchhapliyal.000webhostapp.com/"><i class="fa fa-eye"></i></a></h4>
+                                <h4 class="text-uppercase">Portfolio Website <a href="https://github.com/CoderGaurav01/MyProfile"><i class="fab fa-github"></i></a>&nbsp;<a href="https://gauravchhapliyal.000webhostapp.com/"><i class="fa fa-eye"></i></a></h4>
                                 <span class="text-secondary">Latest, Project</span>
                             </div>
                         </div>
@@ -441,7 +441,7 @@ if($_GET["status"]=="ok"){?>
 
         <!--  ======================= End Project Area =============================  -->
 
-        <!--  ======================== About Me Area ==============================  
+        <!--  ======================== About Me Area ==============================  --
 
         <section class="about-area">
             <div class="container">
