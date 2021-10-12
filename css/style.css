@@ -8,7 +8,10 @@
 
 /* import global styling */ 
 @import url(./partials/_global.css);
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 /* start navigation */ 
 
