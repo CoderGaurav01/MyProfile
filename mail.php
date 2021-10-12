@@ -9,12 +9,12 @@ $mail->isSMTP();
 $mail->Host='smtp.gmail.com';
 $mail->Port= 587;
 $mail->SMTPAuth=true;
-$mail->Username='gauravchhapliyal2001@gmail.com';
-$mail->Password='Gaurav_2001';
+$mail->Username='***************@gmail.com';
+$mail->Password='************';
 $mail->SMTPSecure='tls';
 $mail->From = $_POST['email'];
 $mail->FromName = $_POST['name'];
-$mail->addAddress("gauravchhapliyal2001@gmail.com", "Gaurav Chhapliyal");
+$mail->addAddress("**************@gmail.com", "Your_Name");
 $mail->isHTML(true);
 
 $mail->Subject = $_POST["subject"];
